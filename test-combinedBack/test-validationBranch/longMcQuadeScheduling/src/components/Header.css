@@ -1,0 +1,50 @@
+#topContainer {
+  width: 100vw;
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #aaa3a3;
+}
+
+#wordLogo {
+  padding-left: 10px;
+}
+
+#rightmostLinks {
+  font-family: "Raleway";
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 25%;
+  text-decoration: none;
+  justify-content: space-around;
+}
+
+#iconsTop {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+
+#iconLink:hover {
+  border-bottom: solid 2px #f68b1f;
+}
+
+#signOut,
+#reportProblem {
+  text-decoration: none;
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+#signOut:hover,
+#reportProblem:hover {
+  text-decoration: none;
+  color: #333333;
+  color: #456990;
+  border-bottom: solid 2px #f68b1f;
+}
